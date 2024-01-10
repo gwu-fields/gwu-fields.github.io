@@ -1,6 +1,5 @@
-This repo is for the hosting of gwu-fields.github.io
-In repo Settings, under pages, you can choose which branch and if the root is the "root of the repo" or "/docs".  I created an "other" file to test if other folders would become an option.
-Currently, I chose "/docs".
+Creating a static website using Github Pages
+There are two generators "Jekyll" and "Github Actions".  While both work, the "Jekyll" engine had problems with files/folders with a leading "~".
 
-I also have discoveder that "~" is not a valid character for a folder name (at least the beginning character) which would have allowed us to completely replace home/acad.
-
+The github action is configured to make the contents of the /docs folder the root of the website.
+Other files can be stored beside that doc folder and remain unpublished.
